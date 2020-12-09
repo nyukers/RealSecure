@@ -1,0 +1,7 @@
+-- DIF RESTORE
+use master
+GO
+RESTORE DATABASE ISSED
+FROM DISK = 'd:\iss\backup\dif\ISSEDDIF_250807.dmp'
+WITH NORECOVERY
+
